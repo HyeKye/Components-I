@@ -110,11 +110,11 @@ function articleMaker(obj) {
   articleWrapper.appendChild(article3rd)
   articleWrapper.appendChild(articleSpan)
 
-  articleTitle.textcontent = obj.title
-  articleDate.textcontent = obj.date
-  article1st.textcontent = obj.firstParagraph
-  article2nd.textcontent = obj.secondParagraph
-  article3rd.textcontent = obj.thirdParagraph
+  articleTitle.textContent = obj.title
+  articleDate.textContent = obj.date
+  article1st.textContent = obj.firstParagraph
+  article2nd.textContent = obj.secondParagraph
+  article3rd.textContent = obj.thirdParagraph
   articleSpan.textContent = '+'
 
   articleSpan.addEventListener ('click', () => {
